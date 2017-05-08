@@ -121,11 +121,11 @@ void FileHandle::writeSkeletonMapToFile(map<int,vector<SkeletonPoint> > skeleton
 		/*
 		char* skey="";
 		sprintf(skey,"%05d",key);
-		string fileName = "../files/skeleton_point_"+string(skey)+"_regist.txt";
+		string fileName = "files/skeleton_point_"+string(skey)+"_regist.txt";
 		*/
 
 		stringstream fileName;
-		fileName<<"../files/skeleton_point_"<<setfill('0') <<setw(5)<<key<<"_regist.txt";
+		fileName<<"files/skeleton_point_"<<setfill('0') <<setw(5)<<key<<"_regist.txt";
 
 		cout<<fileName.str()<<endl;
 		writeSkeletonToFile(fileName.str(),skeleton);

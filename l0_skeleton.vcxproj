@@ -10,6 +10,23 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\FileHandle.cpp" />
+    <ClCompile Include="src\GlobalFunction.cpp" />
+    <ClCompile Include="src\KeyboardEventHandle.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\SkeletonPoint.cpp" />
+    <ClCompile Include="src\SkeletonTools.cpp" />
+    <ClCompile Include="src\SkletonOptimizeViaL0.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\FileHandle.h" />
+    <ClInclude Include="src\GlobalFunction.h" />
+    <ClInclude Include="src\KeyboardEventHandle.h" />
+    <ClInclude Include="src\SkeletonPoint.h" />
+    <ClInclude Include="src\SkeletonTools.h" />
+    <ClInclude Include="src\SkletonOptimizeViaL0.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{70C8E3CB-27C2-4DFF-9FE8-13DF208DB50E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -42,6 +59,8 @@
     <LinkIncremental>true</LinkIncremental>
     <IncludePath>C:\OSG\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\OSG\lib;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\Bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)\Obj\$(Platform)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -53,7 +72,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\reconstruction3D\myProject\skeleton\Eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Eigen;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -78,23 +97,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="FileHandle.cpp" />
-    <ClCompile Include="GlobalFunction.cpp" />
-    <ClCompile Include="KeyboardEventHandle.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="SkeletonPoint.cpp" />
-    <ClCompile Include="SkeletonTools.cpp" />
-    <ClCompile Include="SkletonOptimizeViaL0.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="FileHandle.h" />
-    <ClInclude Include="GlobalFunction.h" />
-    <ClInclude Include="KeyboardEventHandle.h" />
-    <ClInclude Include="SkeletonPoint.h" />
-    <ClInclude Include="SkeletonTools.h" />
-    <ClInclude Include="SkletonOptimizeViaL0.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

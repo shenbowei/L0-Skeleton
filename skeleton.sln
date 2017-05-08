@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "L0-Skeleton", "l0_skeleton\l0_skeleton.vcxproj", "{70C8E3CB-27C2-4DFF-9FE8-13DF208DB50E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "L0-Skeleton", "l0_skeleton.vcxproj", "{70C8E3CB-27C2-4DFF-9FE8-13DF208DB50E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

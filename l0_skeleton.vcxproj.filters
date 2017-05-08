@@ -15,45 +15,45 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="src\FileHandle.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="FileHandle.cpp">
+    <ClCompile Include="src\GlobalFunction.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SkeletonPoint.cpp">
+    <ClCompile Include="src\KeyboardEventHandle.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SkeletonTools.cpp">
+    <ClCompile Include="src\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SkletonOptimizeViaL0.cpp">
+    <ClCompile Include="src\SkeletonPoint.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="GlobalFunction.cpp">
+    <ClCompile Include="src\SkeletonTools.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="KeyboardEventHandle.cpp">
+    <ClCompile Include="src\SkletonOptimizeViaL0.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FileHandle.h">
+    <ClInclude Include="src\FileHandle.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="SkeletonPoint.h">
+    <ClInclude Include="src\GlobalFunction.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="SkeletonTools.h">
+    <ClInclude Include="src\KeyboardEventHandle.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="SkletonOptimizeViaL0.h">
+    <ClInclude Include="src\SkeletonPoint.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="GlobalFunction.h">
+    <ClInclude Include="src\SkeletonTools.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="KeyboardEventHandle.h">
+    <ClInclude Include="src\SkletonOptimizeViaL0.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

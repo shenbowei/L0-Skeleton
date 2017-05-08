@@ -8,10 +8,7 @@ ipch/
 *.sdf
 *.suo
 *.opensdf
-l0_skeleton/*.user
-l0_skeleton/[Dd]ebug/
-l0_skeleton/[Rr]elease/
-l0_skeleton/x64/
+*.user
 files/*/*.skel
 files/*/*.[Vv]iew
 files/*/*/*.skel
