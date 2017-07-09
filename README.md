@@ -1,10 +1,10 @@
 # L<sub>0</sub>-regularization-based skeleton optimization from consecutive point sets of kinetic human body
 
-![representive image](result/images/representive_image_small.png "representive image")
+![representive image](result/images/representive_image.png "representive image")
 
 ## Requirements
 
-- OSG 3
+- OSG 3.4.0
 
 ## Example Results
 
