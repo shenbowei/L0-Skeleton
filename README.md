@@ -6,6 +6,8 @@
 
 - OSG 3.4.0
 
+- Visual Studio 2010/2015
+
 ## Example Results
 
 - The skeletons of kinetic human body before optimization
